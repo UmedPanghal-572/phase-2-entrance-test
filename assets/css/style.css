@@ -162,7 +162,7 @@
     z-index: -1;
     width: 100%;
     height: 100%;
-    background-color: #ffead3;
+    background-color: var(--fc-light-red);
 
 }
 
@@ -202,7 +202,11 @@
     height: 32px;
     background-color: var(--fc-white);
     border-radius: 50%;
+    transition: all 300ms linear !important;
+}
 
+.social-icons:hover {
+    background-color: var(--fc-light-red);
 }
 
 .footer-line {
